@@ -55,23 +55,6 @@ This project explores and compares multiple classification models to predict car
 - **Final Evaluation**:
   - Best-performing model selected based on MCC and F1
   - Confusion matrices plotted to visualize prediction performance
-
----
-
-## 🏆 Results Summary
-
-| Model               | Encoding Type | Accuracy | F1 Score | MCC Score |
-|--------------------|----------------|----------|----------|-----------|
-| SVM (Best)          | Binary         | 0.987    | 0.994    | 0.987     |
-| SVM                 | Ordinal        | 0.968    | 0.986    | 0.968     |
-| Logistic Regression | Ordinal        | ...      | ...      | ...       |
-| Decision Tree       | Binary         | ...      | ...      | ...       |
-| k-NN                | Ordinal        | ...      | ...      | ...       |
-
-- The SVM with binary-encoded features achieved the best performance overall.
-- Ordinal models performed well, but slightly below the binary approach.
-- MCC was used to ensure fair evaluation across all target classes.
-
 ---
 
 ## 📌 Key Insights
